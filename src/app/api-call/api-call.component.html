@@ -1,0 +1,6 @@
+<div *ngFor="let data of weatherForecastData">
+  <div>{{ data.summary }}</div>
+  <div>{{ data.temperatureC }}</div>
+  <div>{{ data.temperatureF }}</div>
+  <div>{{ data.date | date:"dd/MM/yyyy" }}</div>
+</div>
