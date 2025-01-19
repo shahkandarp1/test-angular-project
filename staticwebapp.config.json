@@ -1,14 +1,4 @@
 {
-  "routes": [
-    {
-      "route": "/",
-      "rewrite": "/index.html"
-    },
-    {
-      "route": "/api",
-      "rewrite": "/index.html"
-    }
-  ],
   "navigationFallback": {
     "rewrite": "/index.html",
     "exclude": ["/assets/*", "/styles/*", "/scripts/*"]

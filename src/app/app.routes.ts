@@ -5,5 +5,5 @@ import { ApiCallComponent } from './api-call/api-call.component';
 export const routes: Routes = [
   { path: '', component: MainComponent },
   { path: 'api', component: ApiCallComponent },
-
+  { path: '**', redirectTo: '' }
 ];
