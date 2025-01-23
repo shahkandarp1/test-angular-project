@@ -1,3 +1,3 @@
 export const environment = {
-  baseUrl: "https://testapi11212-fubdetfgbpahdcft.canadacentral-01.azurewebsites.net/",
+  baseUrl: "https://testapiiii1212-cqgag7d4etfsd9gd.canadacentral-01.azurewebsites.net/",
 };
